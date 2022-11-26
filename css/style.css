@@ -10,11 +10,11 @@
 --------------------------------------------------------------*/
 @font-face {
   font-family: "Open Sans";
-  src:url(/fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+  src:url(./fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
 }
 @font-face {
   font-family: "Open Sans Bold";
-  src:url(/fonts/Open_Sans/static/OpenSans/OpenSans-Bold.ttf);
+  src:url(./fonts/Open_Sans/static/OpenSans/OpenSans-Bold.ttf);
 }
 body {
   background: #fff;
