@@ -38,6 +38,7 @@ a:hover,
 a:active,
 a:focus {
   color: var(--main);
+  /* font-size: 40px; */
   outline: none;
   text-decoration: none;
 }
@@ -103,6 +104,7 @@ h6 {
 
 #topbar .contact-info a:hover {
   color: var(--main);
+  font-size: 50px;
 }
 
 #topbar .contact-info i {
@@ -370,6 +372,8 @@ h6 {
 .nav-menu li:hover > a,
 .nav-menu .menu-active > a {
   color: var(--main);
+  animation: swing; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1s;
 }
 
 .nav-menu > li {
