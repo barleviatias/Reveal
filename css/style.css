@@ -85,7 +85,28 @@ h6 {
   background: #0c2e8a;
   color: #fff;
 }
+/* Back to top button */
 
+.nav-menu .whatsapp {
+  /* position: fixed; */
+  /* display: none; */
+  /* background:#25D366; */
+  color: #25D366;
+  padding: 0px 12px 9px 12px;
+  font-size: 32px;
+  transition: background 0.5s;
+}
+
+/* .whatsapp:focus {
+  background: var(--main);
+  color: #fff;
+  outline: none;
+} */
+
+.whatsapp:hover {
+  /* background: #25D366; */
+  color: #fff;
+}
 /*--------------------------------------------------------------
 # Top Bar
 --------------------------------------------------------------*/
@@ -104,7 +125,7 @@ h6 {
 
 #topbar .contact-info a:hover {
   color: var(--main);
-  font-size: 50px;
+  /* font-size: 50px; */
 }
 
 #topbar .contact-info i {
@@ -248,16 +269,21 @@ h6 {
 #intro .intro-content .btn-get-started:hover {
   background: none;
   color: #0c2e8a;
+  animation: tada; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
 }
 
 #intro .intro-content .btn-projects {
   background: var(--main);
   border: 2px solid var(--main);
+  /* don't forget to set a duration! */
 }
 
 #intro .intro-content .btn-projects:hover {
   background: none;
   color: var(--main);
+  animation: tada; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s;
 }
 
 #intro #intro-carousel {
@@ -873,6 +899,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #call-to-action .cta-btn:hover {
   background: var(--main);
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
   border: 3px solid var(--main);
 }
 
