@@ -1299,9 +1299,14 @@ h4 {
   float: right;
   margin-left: 15px;
   margin-top: -12px;
-  margin-right: -25px;
+  margin-right: -50px;
 }
-
+.text-accordion{
+  color: #999999;
+  display: block;
+  padding: 12px 30px;
+  border-top: 0px;
+}
 
 .faq-container{
   display: flex;
