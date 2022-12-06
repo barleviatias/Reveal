@@ -1338,13 +1338,20 @@ h4 {
   .faq-container {
     flex-direction: column;
   }
+
+  .accordion_one .panel-group {
+    /* border: 1px solid #f1f1f1; */
+    margin-top: 10px;
+  }
+
   .faq-img {
     max-width: 70%;
-}
-    .col-sm-6 {
-      -webkit-box-flex: 0;
-      -ms-flex: 0 0 50%;
-      flex: 0 0 50%;
-      max-width: 100%;
-    }
+  }
+
+  .col-sm-6 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 100%;
+  }
 }
